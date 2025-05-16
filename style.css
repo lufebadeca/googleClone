@@ -1,0 +1,115 @@
+/* 
+*{
+    border: 2px groove red;
+} */
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(35, 33, 33);
+    height: 100vh;
+    margin: 0;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:rgb(188, 188, 223);
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 300px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-logo:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+
+.search-input{
+    width: 650px;
+    height:46px;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.input{
+    background-color: gray;
+    border-style: none;
+    width: 90%;
+}
+
+.input:focus{
+    border: 0px solid red;
+}
+
+.footer-menu1{
+    height: 40px;
+    background-color: rgb(25, 24, 24);
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu2{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+    background-color:  rgb(25, 24, 24);
+}
+
+.button{
+    background-color: gray;
+    height: 35px;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover{
+    transform: translateY(2px);
+}
+
+a{
+    color: white;
+}
+
+.input-icon{
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.input-icon:hover{
+    cursor: pointer;
+}
+
+.footer-item{
+    margin: 10px 10px;
+    font-size: 14px;
+}
